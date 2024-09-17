@@ -1,0 +1,40 @@
+Foundations React
+-I had to write a lot of code just to ad a h1 
+-Impertaive vs declarative:
+What I did is imperative programming. 
+
+But declarative programming would be like me declaring what the h1 tag I want to look like.
+In other words, imperative programming is like giving a chef step-by-step instructions on how to make a pizza. 
+Declarative programming is like ordering a pizza without being concerned about the steps it takes to make the pizza. 🍕
+
+In order for me to use react I need to import a library 
+
+
+    // Pure JS
+    // // Select the div element with 'app' id
+    // const app = document.getElementById('app');
+
+    // //Create a new H1 Element
+    // const header = document.createElement('h1');
+
+    // // create a mew text node for the H1 element
+    // const text = 'Develop. Preview. Ship';
+    // const headerContent = document.createTextNode(text);
+
+    // // append the text to the H1 Element
+    // header.appendChild(headerContent);
+
+    // // place the H1 element inside the div
+    // app.appendChild(header)
+
+
+
+But is better with ternary
+            function createTitle(title){
+            if(title){
+                return title;
+            } else {
+                return 'Default title';
+            }
+        
+        }
